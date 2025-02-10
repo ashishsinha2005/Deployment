@@ -11,13 +11,11 @@
 
 ## Save pass:
 
-Registry name: flasksampleapp
+ name: flasksampleapp
 
 Login server: flasksampleapp.azurecr.io
 
-username: flasksampleapp
 
-password :LSBP7AutwA5xC4L6O5GncjCOsteLE+iH/+QAL5TiUI+ACRDuZ0EP
 
 ## Run from terminal: to built a docker image and push it into an container registory
 
