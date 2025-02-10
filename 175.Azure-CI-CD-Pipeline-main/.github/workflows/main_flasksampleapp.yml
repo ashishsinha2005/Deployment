@@ -22,10 +22,9 @@ jobs:
     - name: Log in 
       uses: docker/
       with:
-        registryy: https://flasksampleapp.azurecr.io/
-        
+      
 
-    - name: Build and push container image to registryy
+    
       uses: docker/build-push-action@v3
       with:
         push: true
