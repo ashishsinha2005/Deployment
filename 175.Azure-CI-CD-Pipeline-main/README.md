@@ -4,9 +4,9 @@
 ## Deployment Steps:
 
 1. Build the Docker image of the Source Code
-2. Push the Docker image to Container Registryy
+#2. Push the Docker image to Container  
 3. Launch the Web App Server in Azure 
-4. Pull the Docker image from the container registryy to Web App server and run 
+4. Pull the Docker image from the container  to Web App server and run 
 
 
 ## Save pass:
@@ -17,7 +17,7 @@ Login server: flasksampleapp.azurecr.io
 
 
 
-## Run from terminal: to built a docker image and push it into an container registory
+## Run from terminal: to built a docker image and push it into an container 
 
 docker build -t flasksampleapp.azurecr.io/mltest:latest .
 

@@ -86,13 +86,13 @@
     ```
 
 19. **Tag Docker Image**:
-    - Tag the Docker image for Google Container Registry:
+    - Tag the Docker image for Google Container :
     ```bash
     docker tag malavikagowthaman/heart_ml_app gcr.io/heartkuberneteesgcp/heart_ml_app
     ```
 
-20. **Push Docker Image to Google Container Registry**:
-    - Push the tagged image to Google Container Registry:
+20. **Push Docker Image to Google Container **:
+    - Push the tagged image to Google Container :
     ```bash
     docker push gcr.io/heartkuberneteesgcp/heart_ml_app
     ```

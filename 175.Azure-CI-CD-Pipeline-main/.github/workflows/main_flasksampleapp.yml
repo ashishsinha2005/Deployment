@@ -23,8 +23,7 @@ jobs:
       uses: docker/
       with:
         registryy: https://flasksampleapp.azurecr.io/
-        username: ${{ }}
-        password: ${{  }}
+        
 
     - name: Build and push container image to registryy
       uses: docker/build-push-action@v3
