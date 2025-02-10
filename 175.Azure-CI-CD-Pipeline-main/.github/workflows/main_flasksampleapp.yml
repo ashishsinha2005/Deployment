@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'flasksampleapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_caf8eb0540c44295bc30cde98eb2f966 }}
-        images: 'flasksampleapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_4cc3bdda98c64215b620438b834cf819 }}/mltest:${{ github.sha }}'
+        publish-profile: ${{  }}
+        images: 'flasksampleapp.azurecr.io/${{  }}/mltest:${{ github.sha }}'
